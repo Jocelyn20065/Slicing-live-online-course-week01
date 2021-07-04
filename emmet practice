@@ -1,4 +1,0 @@
-** the practice is base on pixel perfect kata.(https://cacoo.com/diagrams/pZ1jUCICb1t4bSVc/1AEDF?reload_rt=1620962199126_0&)
-
-code:
-.wrap>.main>ul.news>(li>img+h2+p)*2^.ad>img^^.footer>p
