@@ -54,11 +54,20 @@ table {
 img{
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 /* css reset end. */
+
+body{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Noto Sans";
+}
+
+
 .container{
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 @media(max-width:768px){
@@ -68,7 +77,7 @@ img{
     }
 }
 h1{
-   font: normal normal normal 80px/106px Roboto;
+   font:80px/106px "Roboto";
    border-bottom: 3px solid #000;
 
 }
@@ -88,38 +97,25 @@ h1{
 
 
 .main-details h2{
-    font: normal normal normal 32px/43px Noto Sans;
-    color: #000000;
-    opacity: 1; 
+    line-height: 43px;
     border-bottom: 1.2px solid #000;
     padding-bottom: 5px;
     margin-top: 10px;
     
 }
 .main-details span{
-    font: normal normal medium 24px/32px Roboto;
-    letter-spacing: 0px;
+    font-family: "Roboto";
     color: #A00404;
-    opacity: 1;
 }
 .main-details ul{
-    padding-top: 24px;
+    margin-top: 24px;
     
 }
-.main-details li{
-    text-align: left;
-    font: normal normal normal 24px/36px Noto Sans;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    
 
-}
-.main-details h3{
-    font: normal normal normal 24px/36px Noto Sans;
-}
+
 .main-details p{
-    font: normal normal normal 20px/30px Noto Sans;
+    font-size: 20px;
+    line-height: 30px;
     width: 60%;
     
 }
@@ -169,10 +165,18 @@ h1{
     border-left: 1px solid #fff;
     font-weight:100;
     
+    
 
 }
 .work-experience h2{
     margin-top: 40px;
+}
+
+.work-content{
+    border-left: .5px solid #c9c9c9;
+    padding-left: 20px;
+    margin-left: 15px;
+    margin-bottom: 25px;
 }
 .footer{
    background-color: #415165; 
@@ -182,7 +186,7 @@ h1{
 .footer h2{
     padding-top: 31px;
     padding-bottom: 10px;
-    font: normal normal normal 26px/43px Noto Sans;
+    line-height: 43px;
     border-bottom: 1px solid #fff;
     margin-bottom: 30px;
 
@@ -195,7 +199,8 @@ h1{
     text-decoration: underline;
 }
 .footer-content li{
-    font: normal normal normal 18px/36px Roboto;
+    font-size: 18px;
+    font-family: "Roboto";
 }
 .footer .social-media{
     display: flex;
